@@ -30,6 +30,7 @@ int NumbersGreaterZero(int[] UserArray)
 // Запрос информации от пользователя
 int[] listOfNumbers = ReadNumber("Введите числа через пробел: ");
 
+
 // Блок формирования и вывода информации в терминал
 int CountNumbersGreaterZero = NumbersGreaterZero(listOfNumbers);
 Console.WriteLine($"Количество чисел в массиве, больших нуля: {string.Join(", ", CountNumbersGreaterZero)}");
